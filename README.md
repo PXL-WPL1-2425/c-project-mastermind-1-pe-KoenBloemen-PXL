@@ -15,7 +15,7 @@ Gebruik de namen die voorzien zijn in de functionele vereisten, maar **zorg ervo
 | ID | Onderwerp | Beschrijving |
 | :--- | :--- | :--- |
 | Mastermind-PE1-01 | Pogingen | Zorg ervoor dat de speler meerdere pogingen kan doen om de code te kraken. Toon "Poging x" in de Windows titel. Voorzie een variabele *attempts* hiervoor. |
-| Mastermind-PE1-02 | Debug-mode | Voorzie een TextBox waarin de gegenereerde code getoond wordt. Deze TextBox is enkel zichtbaar in debug-mode. De speler kan in debug-mode gaan door op CTRL-F12 te drukken. Maak een method *toggledebug* hiervoor aan. |
+| Mastermind-PE1-02 | Debug-mode | Voorzie een TextBox waarin de gegenereerde code getoond wordt. Deze TextBox is enkel zichtbaar in debug-mode. De speler kan in debug-mode gaan door op CTRL-F12 te drukken. Maak een method *toggledebug* hiervoor aan. Door terug op deze toetsencombinatie te drukken wordt de TextBox terug onzichtbaar gemaakt. |
 | Mastermind-PE1-03 | Timer start | Start de timer telkens opnieuw vanaf 1 wanneer de speler een poging heeft gedaan (op de "Check code" knop heeft geklikt) OF de eerste keer wanneer een code is gegenereerd. Gebruik de methode *startcountdown* hiervoor. |
 | Mastermind-PE1-04 | Timer stop | De timer stopt na 10 seconden. Wanneer de speler **niet** binnen de tijd op de knop "Check code" klikt verliest hij zijn beurt. Gebruik de methode *stopcountdown* hiervoor. |
 | Mastermind-PE1-05 | XML documentatie | Voorzie zinvolle XML summary documentatie voor de volgende onderdelen in je project: toggledebug, startcountdown en stopcountdown. |
